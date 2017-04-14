@@ -1,0 +1,27 @@
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>#board{
+    width: 480px;
+    height: 280px;
+    /*border:1px solid red;*/
+    margin-top: 4px;
+    margin-left: -25px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>div.age{
+    width: 208px;
+    height: 48px;
+    position: absolute;
+    /* bottom: -51px; */
+    bottom: -15px;
+    background-color: #ffffff;
+    line-height: 22px;
+    text-align: center;
+    font-size: 17px;
+    left: 110px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>#tulip{
+    position: absolute;
+    width: 104%;
+    display: block;
+    top:2rem;
+    /* margin: 0 auto; */
+    /*margin-left: 5.5rem;*/
+}

@@ -1,0 +1,150 @@
+#korea>div.pay {
+    background-color: #ffffff;
+    margin-top: 4.6rem;
+    border-bottom: 1px solid #cccccc;
+}
+#korea>div.pay>div.paycontent ul li span {
+    color: #999999;
+}
+#korea>div.pay>div.paycontent ul li span:last-child {
+    color: #333333;
+}
+#korea>div.pay>div.paycontent ul li:last-child {
+    border-bottom-width: 0;
+}
+
+#korea>div.pay>div.paycontent ul li {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #dedede;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    font-size: 1.288rem;
+}
+#korea>div.pay>div.paycontent ul li b {
+    color: #eb5b41;
+}
+#korea>div.paytype {
+    margin-top: .92rem;
+    background-color: #ffffff;
+}
+#korea>div.paytype>div.card>a {
+    display: block;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 5%;
+    font-size: 1.288rem;
+    border-bottom: 1px solid #cccccc;
+}
+#korea>div.paytype>div.card>a>img {
+    position: absolute;
+    right: 1rem;
+    top: 1.47rem;
+    width: .6rem;
+    height: 1rem;
+}
+#korea>div.paytype>div.paydetails {
+    display: block;
+    line-height: 30px;
+    margin: 0 auto;
+}
+#korea>div.paytype>div.paydetails>div.wechat {
+    padding: 1rem 5%;
+    margin: auto;
+    border-bottom: 1px solid #dddddd;
+    overflow: hidden;
+}
+#korea>div.paytype>div.paydetails>div.wechat>div.pic {
+    width: 3.08rem;
+    height: 3.08rem;
+    display: inline-block;
+    float: left;
+    background: url(../images/koreaweixing.png) no-repeat center;
+    background-size: 3.08rem 3.08rem;
+}
+#korea>div.paytype>div.paydetails>div.wechat>span {
+    display: block;
+    float: left;
+    margin-left: 1rem;
+    height: 3.08rem;
+    line-height: 3.08rem;
+}
+#korea>div.paytype>div.paydetails>div.wechat>div.check2 {
+    width: 1.84rem;
+    height: 1.84rem;
+    margin-top: 0.62rem;
+    display: inline-block;
+    float: right;
+    background: url(../images/koreapayno.png) no-repeat center;
+    background-size: 1.8rem 1.8rem;
+}
+#korea>div.paytype>div.paydetails>div.wechat>div.check {
+    width: 1.84rem;
+    height: 1.84rem;
+    margin-top: 0.62rem;
+    display: inline-block;
+    float: right;
+    background: url(../images/koreapayright.png) no-repeat center;
+    background-size: 1.8rem 1.8rem;
+}
+#korea>div.paytype>div.paydetails>div.wechat>div.pic2 {
+    width: 3.08rem;
+    height: 3.08rem;
+    display: inline-block;
+    float: left;
+    background: url(../images/koreazfb.png) no-repeat center;
+    background-size: 3.08rem 3.08rem;
+}
+#korea .koreafooter2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5rem;
+    border-top: 1px solid #cccccc;
+    background-color: #ffffff;
+    overflow: hidden;
+}
+#korea .koreafooter2 .money {
+    height: 5rem;
+    line-height: 5rem;
+    float: left;
+    margin-left: 1.52rem;
+    font-size: 1.38rem;
+    color: #555555;
+}
+#korea .koreafooter2 .money span {
+    color: #eb5b41;
+    font-weight: bold;
+}
+#korea .koreafooter2 .moneyPay {
+    display: block;
+    float: right;
+    margin-right: .5rem;
+    margin-top: .525rem;
+    width: 8.88rem;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    background-color: #eb5b41;
+    font-size: 1.38rem;
+    color: #ffffff;
+    border-radius: 4px;
+    font-family: "微软雅黑", "Microsoft YaHei UI", "MS Serif", "MS Sans Serif", "Microsoft Sans Serif";
+}
+#korea>div.topTips{
+    width: 85%;
+    height: 4rem;
+    margin: 0 7%;
+    background: rgba(0,0,0,0.5);
+    border-radius: 3rem;
+    position: fixed;
+    bottom:10rem;
+}
+
+ input[type="button"], input[type="submit"], input[type="reset"] {
+
+-webkit-appearance: none;
+
+}

@@ -1,0 +1,1631 @@
+li{
+	list-style: none
+}
+a{
+	text-decoration: none;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,p {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ font-size: 100%;
+ vertical-align: baseline;
+ background: transparent;
+ font-family: '微软雅黑'
+}
+a{
+	color: black;
+}
+img	{
+	pointer-events: none;
+}
+#korea .content{
+	 width: 88%;
+	 height: 40px;
+	 margin:0 auto;
+	 line-height: 40px;
+	 position: relative;
+}
+#korea .content>ul>li{
+	 border-bottom:1px solid #dedede;
+
+}
+#korea .content>ul>li>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+#korea .content>ul>li>a>div{
+	position: absolute;
+	right: 0;
+	width: 10px;
+	height: 40px;
+	top:0;
+	right: -10px;
+	/*border:1px solid red;*/
+}
+#korea .content>ul>li>a>span>span{
+	color:red;
+}
+#korea .content>ul>li>a>span.text{
+	position: absolute;
+	right:10px;
+	top:0;  
+}
+#korea .mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0;
+}
+#korea .mask .selectReport{
+    position: absolute;
+    bottom: 100px;
+    width: 95%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    left: 2.5%;
+}
+#korea .mask .selectReport.selectReportDetails{
+    position: absolute;
+    top:45%;
+    width: 95%;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    left: 2.5%;
+}
+#korea .mask .selectReport .title{
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #dedede;
+	line-height: 45px;
+	color: #008cd6;
+}
+#korea .mask .selectReport.selectReportDetails .title{
+	text-align: center;
+	width: 100%;
+	height: 45px;
+	border-bottom: 1px solid #dedede;
+	line-height: 45px;
+	background-color: #e7e7e7;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	color:black;
+}
+
+
+#korea .mask .selectReport .content{
+	width: 100%;
+	height: auto;
+}
+#korea .mask .selectReport .content>div.pic{
+	width: 30px;
+	height: 50px;
+	border:1px solid red;
+	margin: 0 auto;
+}
+#korea .mask .selectReport .content>div.pic>img{
+	display: block;
+}
+#korea .mask .selectReport .content>p{
+	font-size: 10px;
+	text-align:center;
+}
+#korea .mask .selectReport .footer{
+    width: 100%;
+    border-top: 1px solid #dedede;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+}
+#korea .mask .selectReport .footer>button{
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 10px;
+}
+
+#korea .mask .selectReport .footer>button.sumbit>a
+{
+	color:#008cd6;
+}
+#korea .mask .selectReportDetailsCancel{
+    position: absolute;
+    bottom:86px;
+    width: 95%;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    /* margin: 0 auto; */
+    left: 2.5%;
+    outline: none;
+    font-size: 20px;
+
+}
+#korea .mask .selectReportDetailsCancel>a{
+	color: black;
+}
+
+
+#korea .mask .selectReport.selectReportDetails>div.list{
+	width: 100%;
+	background-color: #dedede;
+	height: 50px;
+}
+#korea .mask .selectReport.selectReportDetails>div.list>div.person{
+	width: 100%;
+	height: 50%;
+}
+#korea .mask .selectReport.selectReportDetails>div.list>div.person>span.name{
+	float:left;
+	margin-left: 10px
+}
+#korea .mask .selectReport.selectReportDetails>div.list>div.person>span.time{
+	float:right;
+	margin-right: 10px;
+}
+#korea .mask .selectReport.selectReportDetails>div.list>div.hpname{
+	/*width: 90%;*/
+	padding-left: 10px;
+
+}
+
+
+
+/*体检报告*/
+#korea .reportContent {
+	position: relative;
+}
+#korea .reportContent .left-list-title{
+	width: 100%;
+	height: 40px;
+}
+#korea .reportContent .left-list-title>li.list-title{
+	width: 33%;
+	/*border:1px solid red;*/
+	text-align:center;
+	height: 100%;
+	line-height: 40px;
+	float: left;
+}
+#korea .reportContent .left-list-title .list-title.active {
+    border-bottom:1px solid #008cd6;
+    z-index: 5;
+}
+#korea .reportContent .tab-content  .tab-pane.active{
+	display: block;
+}
+#korea .reportContent .tab-content  .tab-pane{
+	display: none;
+}
+#korea .reportContent .tab-content{
+	width: 100%;
+	height: auto;
+	margin:1px auto;
+}
+#korea .reportContent .tab-content  .tab-pane{
+	width: 100%;
+	height: auto;
+	margin:0 auto;
+}
+#korea .reportContent .tab-content  .tab-pane .tips{
+	width: 93%;
+	height: 30px;
+	background-color: #d3edfb;
+	padding-left: 25px;
+	line-height: 30px;
+	color:#008cd6;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails{
+	width: 100%;
+	margin:0 auto;
+	height: auto;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul{
+	width: 100%;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li{
+	width: 100%;
+	height: 30px;
+	border-bottom:1px solid #dedede;
+	padding: 10px 0px;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>img{
+	display: block;
+    width: 10px;
+    height: 30px;
+    float: left;
+    border: 1px solid red;
+    margin-left: 22px;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>div.name{
+	height: 30px;
+	float: left;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>div.name>span{
+	display: block;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>div.name>span.second{
+	font-size: 10px;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>div.num{
+    height: 30px;
+    float: right;
+    margin-right: 32px;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>div.num>span{
+	display: block;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>ul>li>div.num>span.second{
+	font-size: 10px;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>div.end{
+	padding: 10px  22px;
+	height: auto;
+	background-color: #efeeee;
+	font-size: 12px;
+}
+#korea .reportContent .tab-content  .tab-pane .contentDetails>div.end>ul>li{
+	width: 100%;
+	height: 19px;
+	line-height: 19px;
+}
+
+
+/*韩国首页*/
+#korea .indexContent{
+	width: 100%;
+	height: auto;
+	margin-top: 4.5rem;
+}
+#korea .indexContent>div.first>div.banner{
+	width: 100%;
+	position: relative;
+}
+#korea .indexContent>div.first>div.banner>img{
+	width: 100%;
+	display: block;
+}
+#korea .indexContent>div.first>div.banner>div.title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #ffffff;
+    height: 2rem;
+    background-color: rgba(94, 176, 216,0.9);
+    /*padding-left: 2rem;*/
+}
+#korea .indexContent>div.first.second>div.banner>div.title{
+	position: absolute;
+	width: 100%;
+	color: #ffffff;
+	background-color: rgba(0, 0, 0,0.5);
+	padding-left: 1.2rem;
+	height: 3.8rem;
+	padding-top: 0.4rem;
+	font-size: 1.2rem;
+	line-height: 1.5rem;
+}
+#korea .indexContent>div.first>div.banner>div.title>span.icon{
+	width: 0.41rem;
+	height: 1.2rem;
+	background-color: #ffffff;
+	display: inline-block;
+	position: absolute;
+	left: 0.75rem;
+	top:0.4rem;
+}
+#korea .indexContent>div.first>div.banner>div.title>p{
+	position: absolute;
+	left: 2rem;
+}
+#korea .indexContent>div.first.second>div.banner>div.title>p{
+
+}
+
+
+#korea .indexContent>div.first>div.text{
+	width: 100%;
+	padding:0.58rem 0.83rem;
+	background-color: #ffffff;
+}
+#korea .indexContent>div.first.second{
+    width: 96%;
+    margin: 1rem auto;
+    box-shadow: 2px 3px 5px #dedede;
+}
+#korea .indexContent>div.first.second>div.text{
+	width: 100%;
+	padding:0.58rem 0.83rem;
+}
+#korea .indexContent>div.first.second>div.text{
+	padding-left: 1.58rem;
+	position: relative;
+}
+#korea .indexContent>div.first.second>div.footerButonn {
+	height: 50px;
+	width: 100%;
+}
+#korea .indexContent>div.first.second>div.footerButonn>button{
+	width: 50%;
+	height: 100%;
+	float: left;
+	background: #ffffff;
+	border:none;
+	border-top:1px solid #dedede;
+	font-size: 1.5rem;
+	font-family: '微软雅黑';
+	outline: none;
+}
+#korea .indexContent>div.first.second>div.footerButonn>button.second{
+	background-color: #f28123;
+	color: #ffffff;
+}
+#korea .indexContent>div.first>div.text>p{
+	line-height: 1.58rem;
+	color: #555555;
+	font-size: 1.08rem;
+}
+#korea .indexContent>div.first.second>div.text>span.price{
+	position: absolute;
+	right: 1.16rem;
+	color:#f28123;
+	font-weight: bold;
+}
+#korea .indexContent>div.first.second>div.text>span.icon{
+	width: 0.41rem;
+	height: 1.6rem;
+	background-color: #008cd6;
+	display: inline-block;
+	position: absolute;
+	left: 0.75rem;
+	top:0.66rem;
+}
+
+/*支付*/
+
+#korea>div.pay>div.paycontent ul li{
+	width: 90%;
+	margin: 0 auto;
+	border-bottom:1px solid #dedede;
+	height: 30px;
+	line-height: 30px;
+}
+#korea>div.paytype{
+	margin-top: 10px;
+}
+#korea>div.paytype>div.card>a{
+    width: 91%;
+    border: 1px solid red;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    margin: 0 auto;
+}
+#korea>div.paytype>div.card>a>img{
+	position: absolute;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	border:1px solid red;
+}
+#korea>div.paytype>div.paydetails{
+   width: 91%;
+    border: 1px solid red;
+    display: block;
+    height: 77px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+#korea>div.paytype>div.paydetails>div.wechat{
+	clear: both;
+	height: 30px;
+	margin-bottom: 10px;
+
+}
+#korea>div.paytype>div.paydetails>div.wechat>div.pic{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    display: inline-block;
+    float: left;
+}
+#korea>div.paytype>div.paydetails>div.wechat>span{
+	  display: block;
+    float: left;
+}
+#korea>div.paytype>div.paydetails>div.wechat>div.check{
+    width: 30px;
+    height: 30px;
+    border: 1px solid red;
+    display: inline-block;
+    float: right;
+}
+
+
+/*体检报告*/
+#korea>div.resultContent{
+	/*margin-top: 4.6rem;*/
+}
+#korea>div.resultContent>div.personDetails{
+    width: 100%;
+    height: 5.15rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dedede;
+}
+#korea>div.resultContent>div.personDetails>div.name{
+	width: 20%;
+    height: 5.15rem;
+    float: left;
+    /* border: 1px solid #dedede; */
+    padding-left: 0.9rem;
+    border-top-style: none;
+    border-right: 1px solid #dedede;
+}
+#korea>div.resultContent>div.personDetails>div.name>span:nth-child(1){
+    margin-top: 0.7rem;
+    display: block;
+    font-size: 1.2rem;
+}
+
+#korea>div.resultContent>div.personDetails>div.name>span.rscontent{
+	color:#019EEB;
+	font-size: 1.2rem;
+}
+#korea>div.resultContent>div.personDetails>div.details{
+	width: 80%;
+	float: left;
+	height: 5.15rem;
+	font-size: 1.2rem;
+}
+#korea>div.resultContent>div.personDetails>div.details>ul>li{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 2.58rem;
+    text-align: left;
+    padding-left: 0.4rem;
+    line-height: 2.58rem;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+#korea > div.resultContent > div.personDetails > div.details > ul > li:nth-child(3) {
+    border-bottom-style:none;
+}
+#korea > div.resultContent > div.personDetails > div.details > ul > li:nth-child(4) {
+    border-bottom-style:none;
+}
+#korea > div.resultContent > div.personDetails > div.details > ul > li > span {
+       /*font-size:1.3rem;*/
+}
+
+
+#korea>div.resultContent>div.personDetails>div.details>ul>li>span.rscontent{
+	color:#019EEB;
+}
+/*评估图表*/
+
+#korea>div.resultContent>div.dataList.checkSuggest.person{
+	background-color: #ffffff;
+}
+
+#korea>div.resultContent>div.dataList>div.title{
+	width: 100%;
+	height: 4rem;
+	border-bottom: 1px solid #dedede;
+	background-color: #ffffff;
+	margin-top: 1rem;
+	line-height: 4rem;
+	padding-left: 1rem;
+}
+#korea>div.resultContent>div.dataList>div.all{
+	background-color: #ffffff;
+}
+
+#korea>div.resultContent>div.dataList>div.title>span{
+	display: block;
+	float: left;
+	font-size: 1.5rem;
+}
+#korea>div.resultContent>div.dataList>div.title>span.icon{
+	width: 0.5rem;
+	height: 100%;
+	display: block;
+	/*position: relative;*/
+	margin-left: -1rem;
+	background-color: #eb5b41;
+}
+#korea>div.resultContent>div.dataList>div.title>div.rightJian{
+	width: 3rem;
+	height: 3rem;
+	margin-top: 0.5rem;
+	margin-right: 1rem;
+	float: right;
+}
+	
+#korea>div.resultContent>div.dataList>div.title>div.rightJian>img
+{
+	    width: 1rem;
+    height: 0.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1.2rem;
+    display: block;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details{
+    width: 80%;
+     height: 353px;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 0rem auto;
+    padding: 2.5rem 0;
+	position: relative;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details.recipe{
+	width: 92%;
+	margin: 0 auto;
+}
+
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.data{
+	width: 92%;
+    height: 27rem;
+    line-height: 0;
+    overflow: hidden;
+    margin: 0.7rem auto;
+}
+.contentMain>div.dataList_details>div.data>div.tips{
+	width: 100%;
+	position: relative;
+	right: 0;
+	height: 2rem;
+	margin-top: -224px;
+}
+.contentMain>div.dataList_details>div.data>div.tips>div{
+    float: right;
+    width: 5rem;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: 0.91rem;
+}
+.contentMain>div.dataList_details>div.data>div.tips>div>span.icon{
+	width: 1rem;
+    height: 1rem;
+    line-height: 2rem;
+    background-color: red;
+    /* border-radius: 0.2rem; */
+    display: block;
+    float: left;
+    margin-top: 0.4rem;
+}
+.contentMain>div.dataList_details>div.data>div.tips>div.first>span.icon{
+	background-color: #ffcf00;
+}
+.contentMain>div.dataList_details>div.data>div.tips>div.second>span.icon{
+	background-color: #ffe87f;
+}
+.contentMain>div.dataList_details>div.data>div.tips>div.third>span.icon{
+	background-color: #fff6cc;
+}
+.contentMain>div.dataList_details>div.data>div.tips>div>span.time{
+	 display: block;
+    width: 3rem;
+    float: left;
+    height: 2rem;
+    margin-left: 0.3rem;
+}
+
+
+/*#korea>div.resultContent>div.dataList>div.dataList_details>div.data>canves#canves{*/
+	/*width: 100%;*/
+/*}*/
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>#tulip{
+	position: absolute;
+	width: 100%;
+	display: block;
+	top:2rem;
+	/* margin: 0 auto; */
+	/*margin-left: 5.5rem;*/
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content{
+	width: 418px;
+	/* border: 1px solid red; */
+	/*margin-left: 11%;*/
+	height: auto;
+	position: absolute;
+	line-height: 0;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle{
+	width: 328px;
+	height: auto;
+	line-height: 0;
+	overflow: hidden;
+	position: absolute;
+	right: -17px;
+	top: 74px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle>div{
+	width: 142px;
+	float: left;
+	height: 142px;
+	/* border: 1px solid red; */
+	position: relative;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle>div>p{
+	position: absolute;
+	top: 4rem;
+	z-index: 100;
+	font-size: 0.91rem;
+	text-align: center;
+	color: rgba(255,255,255,1);
+	width: 100%;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle>div>img{
+	width: 142px;
+	position: absolute;
+	top: 0;
+	display: block;
+	z-index: 99;
+	/* left: 0.7rem; */
+}
+
+/*圆环刻度*/
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle>div>div.circle{
+	width: 142px;
+	height: 142px;
+	/*margin: 20em auto;*/
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle>div>div.circle>canvas{
+	display: block;
+	margin: 0;
+	position: absolute;
+	/* background: #eeeeee; */
+	left: 0;
+	top: 0;
+	width: 142px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.contents.circle>div>div.circle>canvas:last-child{
+}
+#canvas_1,#canvas_4,#canvas_7,#canvas_10{
+	z-index: 1
+}
+#canvas_2,#canvas_5,#canvas_8,#canvas_11{
+	z-index: 2;
+}
+
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>#board{
+	width:100%;
+	/*margin-top: -59px;*/
+	/*margin-left: 4.5rem;*/
+	 margin-top: -30px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>div.num{
+	position: absolute;
+	height: 32px;
+	font-size: 15px;
+	left: 134px;
+	line-height: 0.6rem;
+	color: #ffffff;
+	bottom: 40px;
+	width: 154px;
+	text-align: center;
+	font-size: 42px;
+
+}
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>div.pid{
+	height: 32px;
+	position: absolute;
+	bottom: -105px;
+	left: 134px;
+	line-height: 0.6rem;
+	background-size: 100%;
+	color: #141414;
+	font-size: 15px;
+	background-color: #f1eeec;
+	line-height: 32px;
+	padding-left: 10px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>div.pid p:nth-child(2){
+	padding-left: 1rem;
+	width: 3rem;
+}
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>div.age {
+	width: 208px;
+	height: 48px;
+	position: absolute;
+	/*bottom: -51px;*/
+	bottom:-15px;
+	background-color: #ffffff;
+	line-height: 22px;
+	text-align: center;
+	font-size: 17px;
+	left: 102px;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>div.age p:nth-child(2) {
+	font-size: 2.1rem;
+	margin-top: 0.6rem;
+}
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>.pid>p{
+	width: 5rem;
+	float: left;
+}
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.content>#circltBottom{
+	width: 60%;
+	margin-left: 20%;
+}
+
+
+#korea>div.resultContent>div.dataList.total>div.dataList_details{
+	/*height: 14rem;*/
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details{
+	width:92%;
+	/*padding: 2rem;*/
+	background-color: #f5f5f5;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list{
+	border:1px solid #dedede;
+	/*height:10rem;*/
+	border-top-left-radius: 2rem;
+	border-top-right-radius: 3rem;
+	border-bottom-left-radius: 2rem;
+	padding: 1.3rem;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div{
+	height: auto;
+	width: 100%;
+	/*margin-top: 1rem;*/
+	/*border:1px solid red;*/
+	clear: both;
+	overflow: hidden;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div>div.list_icon{
+	width: 1rem;
+	display: block;
+	height: 100%;
+	/* border: 1px solid red; */
+	/* float: left; */
+	position: absolute;
+    font-size:1rem;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div>div.list_text{
+	/*border:1px solid blue;*/
+	width: 100%;
+	padding-left: 2rem;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div>div.list_text>p{
+	font-size: 1.2rem;
+}
+
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic{
+	border: 1px solid #dedede;
+	width: 13.5rem;
+	height: 4rem;
+	margin: 0 auto;
+	background-color: #696969;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 3rem;
+	border-bottom-left-radius: 2rem;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div{
+	width: 3rem;
+	height: 3rem;
+	border-radius: 2rem;
+	float: left;
+	margin-left: 1rem;
+	margin-top: 0.4rem;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div.good{
+	background-color: #1fea1f;
+	position: relative;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div.good>div#rgood{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div.normal {
+	background-color: yellow;
+	position: relative;
+
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div.normal>div#rnormal{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+}
+
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div.bad {
+	background-color: red;
+	position: relative;
+}
+#korea>div.resultContent>div.dataList.total>div.dataList_details>div.list>ul>li>div.pic>div.bad>div#rbad{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top:0;
+	width: 3rem;
+	height: 3rem;
+	border-radius: 3rem;
+}
+
+/*诊断卡片内容*/
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details{
+	overflow: hidden;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent{
+	    width: 92%;
+    border-radius: 0.5rem;
+    margin: 0.6rem auto;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div{
+	display: inline-block;
+	float: left;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkName{
+	    width: 22.5%;
+    height: 3.25rem;
+    padding-left: 0.5rem;
+    line-height: 3.25rem;
+    border: 1px solid #dedede;
+    border-top-left-radius: 0.5rem;
+    background-color: #f2f2f2;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkNameContent{
+        height: 3.25rem;
+    line-height: 3.25rem;
+    background-color: #f2f2f2;
+    border-top-right-radius: 3px;
+    border: 1px solid #dedede;
+    border-left-style: none;
+    padding-left: 1rem;
+    color: #25aee2;
+    width: 77.5%;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList{
+	min-height: 5.8rem;
+    border: 1px solid #dedede;
+    border-top-style: none;
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList>div{
+	float: left;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkType{
+	height: 5.8rem;
+    width: 20.5%;
+    line-height: 5.8rem;
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkType{
+	height: 5.8rem;
+	width: 4.7rem;
+	 line-height: 2rem;
+	text-align: center;
+	top: 50%;
+	position: absolute;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	word-wrap: break-word;
+	letter-spacing: 20px;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent{
+    padding: 0.5rem;
+    min-height: 5.8rem;
+    width: 100%;
+    overflow: hidden;
+    border-left: 1px solid #dedede;
+    margin-left: 22.1%;
+    color:#666666;
+    font-size:1.2rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div{
+	height: auto;
+	width: 100%;
+	/* margin-top: 1rem; */
+	/* border: 1px solid red; */
+	clear: both;
+	overflow: hidden;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_icon {
+	width: 1rem;
+	display: block;
+	height: 100%;
+	/* border: 1px solid red; */
+	/* float: left; */
+	position: absolute;
+    font-size:1rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text {
+	    width: 79%;
+    padding-left: 2rem;
+	font-size: 1.2rem;
+    padding-right:0.5rem;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList{
+	width:100%;
+	min-height:5.8rem;
+	border:1px solid #dedede;
+	border-top-style: none;
+	position: relative;
+	background-color: #ffffff;
+	border-bottom-right-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div{
+	float: left;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeLast{
+	    height: 5.8rem;
+    width: 20.5%;
+    line-height: 5.8rem;
+    text-align: center;
+    top: 50%;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeContent{
+	width: 19rem;
+	height:5.8rem;
+	border-left: 1px solid #dedede;
+    color:#666666;
+    font-size:1.2rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeContent>ul>li {
+    line-height:1.8rem;
+}
+
+
+
+
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkType{
+	height:5.8rem;
+	width: 5.7rem;
+	line-height: 5.8rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeContent{
+	padding: 0.5rem;
+    min-height: 5.8rem;
+    width: 100%;
+    overflow: hidden;
+    border-left: 1px solid #dedede;
+    margin-left: 22.1%;
+  
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeContent>ul>li>div{
+	height: auto;
+	width: 100%;
+	/* margin-top: 1rem; */
+	/* border: 1px solid red; */
+	clear: both;
+	overflow: hidden;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeContent>ul>li>div>div.list_icon {
+	width: 1rem;
+	display: block;
+	height: 100%;
+	/* border: 1px solid red; */
+	/* float: left; */
+	position: absolute;
+    font-size:1rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest>div.all>div.dataList_details>div.suggestContent>div.checkTypeLastList>div.checkTypeContent>ul>li>div>div.list_text {
+	    width: 79%;
+    padding-left: 2rem;
+    padding-right:0.5rem;
+}
+/*定制运动处方*/
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkNameContent{
+	width: 100%;
+	height: 3.25rem;
+	line-height: 3.25rem;
+	background-color: #f2f2f2;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+	border: 1px solid #dedede;
+	padding-left: 1rem;
+	color: #25aee2;
+	border-bottom-style: none;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList{
+	position: relative;	
+	border:1px solid #dedede;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList.second{
+	border-top-style: none;
+	border-bottom-right-radius: 0.5rem;
+	border-bottom-left-radius: 0.5rem;
+	margin-bottom: 1rem;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_icon{
+	width: 1rem;
+	display: block;
+	height: 100%;
+	/* border: 1px solid red; */
+	/* float: left; */
+	position: absolute;
+	left: 2.5rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_icon>span.first {
+ color: #20963f;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_icon>span.second {
+	color: #fabc01;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_icon>span.third {
+	color:#eb5b41;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent{
+	padding: 0.5rem 0rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text{
+	padding-left: 1rem;
+	/*border-bottom: 1px solid #dedede;*/
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>p{
+	line-height: 1.8rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent{
+	margin-left: 2.9rem;
+	border-left:1px solid #dedede;
+	border-top-style: none;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li{
+	border-bottom: 1px solid #dedede;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li.suggestSecond{
+	padding: 0.5rem 0;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li.suggestThird {
+	border-bottom-style:none;
+	padding: 0.5rem 0;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>span.icon{
+        background-color: #20963f;
+    color: #ffffff;
+    border-radius: 0.1rem;
+    padding: 0.1rem 0; 
+    display: block;
+    width: 2.25rem;
+    position: absolute;
+    height: 1.14rem;
+    top: 0.9rem;
+    font-size: 0.91rem;
+    line-height: 1rem;
+    text-align: center;
+    vertical-align: middle;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method.target{
+	position: relative;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method.target>span.icon{
+	background-color: #fabc01;
+	color: #ffffff;
+	width: 2.25rem;
+    position: absolute;
+    height: 1.14rem;
+    top: 0.5rem;
+    font-size: 0.91rem;
+    text-align: center;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method.target>span.icon.thirdicon{
+	background-color:#eb5b41;
+}
+
+
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>span.iconName {
+	margin-left: 2.7rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.contentPerson{
+	height: auto;
+	overflow: hidden;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method.target>div.contentPerson {
+	margin-left: 3.5rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.contentPerson>ul>li>div {
+	height: auto;
+	width: 100%;
+	/* margin-top: 1rem; */
+	/* border: 1px solid red; */
+	clear: both;
+	overflow: hidden;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.contentPerson>ul>li>div>div.list_icon{
+	width: 1rem;
+	display: block;
+	height: 100%;
+	position: absolute;
+	font-size: 0.1rem;
+}
+
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.contentPerson>ul>li>div>div.list_text {
+	width: 100%;
+	padding-left: 1rem;
+	font-size: 1.2rem;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.pic{
+	width: 20rem;
+	height: 7rem;
+	margin: 0.5rem 0;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.pic>div.other{
+	    width: 5.4rem;
+    height: 5.4rem;
+    display: block;
+    margin: 0.5rem 0.5rem;
+    float: left;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    background-color: #e3e3e3;
+}
+#korea>div.resultContent>div.dataList.checkSuggest.person>div.dataList_details>div.suggestContent>div.checkTypeList>div.checkTypeContent>ul>li>div>div.list_text>div.method>div.pic>div.other>img{
+	width: 100%;
+	height: 100%;
+}
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent{
+	width: 100%;
+	height: auto;
+	padding: 0.5rem;
+	margin:0 auto;
+	border-bottom: 1px solid #dedede;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent>div.cardPic{
+	width: 20%;
+	min-height: 8rem;
+	border-radius: 0.5rem;
+	background: url(../images/8.png) no-repeat center #8fcfe6;
+	background-size: 4rem;
+	position: relative;
+
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent>div.cardPic>div.content{
+	margin-top: 0rem;
+	
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent.second>div.cardPic{
+	background: url(../images/7.png) no-repeat center #8fcfe6;
+	background-size: 4rem;
+
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent.third>div.cardPic{
+	background: url(../images/6.png) no-repeat center #8fcfe6;
+	background-size: 4rem;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent.four>div.cardPic{
+	background: url(../images/5.png) no-repeat center #8fcfe6;
+	background-size: 4rem;
+}
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent>div.cardPic>p{
+	position: absolute;
+	top: 5.5rem;
+	text-align: center;
+}
+
+#korea>div.resultContent>div.dataList>div.dataList_details>div.cardContent>div.cardPic>div.content{
+	width: 380%;
+	height: auto;
+	margin-left: 120%;
+	line-height: 2rem;
+	background-size: 4rem;
+	font-size: 1.2rem;
+	/*border:1px solid red;*/
+}
+
+#korea .nav .navRight.share {
+	position: absolute;
+	right: 1rem;
+	top: 1rem;
+	height: 3.3rem;
+	width: 2rem;
+}
+#korea>div.koreaFooter{
+	width: 100%;
+	height: 6rem;
+	background-color: #ffffff;
+	border-top-style: none;
+	overflow: hidden;
+}
+#korea>div.koreaFooter>div.footerContent{
+	width: 20rem;
+	height: 3rem;
+	margin: 1.6rem auto;
+}
+
+
+/*代谢症候诊断标准*/
+.Criteria>div.dataList_details{
+	/*padding: 1rem;*/
+	background-color: #f5f5f5;
+}
+.Criteria>div.dataList_details>div.list{
+	border:1px solid #dedede;
+	border-radius: 0.5rem;
+	background-color: #ffffff;
+}
+.Criteria>div.dataList_details>div.list>div.title {
+	height: 3rem;
+}
+.Criteria>div.dataList_details>div.list>div.title>div {
+	float: left;
+}
+.Criteria>div.dataList_details>div.list>div.title>div.type {
+	height: 3rem;
+	width: 64%;
+	line-height: 3rem;
+	text-align: center;
+	border-right:1px solid #dedede;
+}
+#korea .nav .navRight .indexNavBtn2 {
+    line-height: 3.3rem;
+    display: block;
+    float: right;
+    font-size: 1.6rem;
+    color: #FFF;
+    height: 3.3rem;
+    vertical-align: middle;
+}
+#korea .nav .navRight .informationTijiao {
+    width: 1.5rem;
+    vertical-align: middle;
+    position: relative;
+    top: -0.1rem;
+}
+.Criteria>div.dataList_details>div.list>div.title>div.result {
+    width: 21%;
+    height: 3rem;
+    line-height: 1.4rem;
+    text-align: center;
+    border-right: 1px solid #dedede;
+    /* padding: 0.1rem 1.5rem; */
+    font-size: 0.91rem;
+    margin-top: 0.1rem;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.title>div.range {
+	width: 15%;
+}
+
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.title>div.range>span{
+    display:block;
+    height: 3rem;
+    width: 50%;
+    float: left;
+   line-height: 3rem;
+   text-align: center;
+   color: #ffffff;
+   background-color: red;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.title>div.range>span:nth-child(2){
+	border-top-right-radius:0.5rem; 
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.title>div.range>span:nth-child(1){
+	background-color: #25aee2
+}
+
+
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent{
+		height: 6rem;
+		border:1px solid #dedede;
+		border-bottom-style: none;
+		border-right-style: none;
+		border-left-style: none;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div {
+	float: left;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkTypeContent {
+	height: 6rem;
+	width: 64%;
+	line-height: 6rem;
+	text-align: center;
+	border-right:1px solid #dedede;
+	border-left-style: none;
+	font-size: 1.01rem;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkTypeContent>p {
+	display: block;
+	line-height: 4rem;
+	height: 1.4rem;
+	margin-bottom: 0.3rem;
+}#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkTypeContent>p:nth-child(1) {
+  font-size: 1.1rem;
+ }
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkTypeContent>p:nth-child(2) {
+	font-size: 0.91rem;
+	color: #dedede;
+}
+
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkResultContent {
+    width: 21%;
+    height: 6rem;
+    line-height: 6rem;
+    text-align: center;
+    border-right: 1px solid #dedede;
+    padding: 0.1rem;
+    font-size: 0.91rem;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkRangeContent {
+	width: 15%;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkRangeContent>div{
+    display:block;
+    height: 6rem;
+    width: 50%;
+    float: left;
+   line-height: 3rem;
+   text-align: center;
+   color: #ffffff;
+}
+#korea>div.resultContent>div.dataList.standard>div.dataList_details>div.list>div.checkContent>div.checkRangeContent>div:nth-child(1){
+	border-right:1px solid #dedede;
+}
+#korea .nav .navRight .indexNavBtn>img.share{
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 2rem;
+	height: 2rem;
+	margin-top: 0.6rem;
+}
+div.leftmain{
+    /*width: 69%;*/
+	height: 0.64rem;
+	margin-top: 2.6rem;
+	float: right;
+	max-width: 100%;
+	background-color: #25aee2;
+}
+div.rightmain{
+    /*width: 80%;*/
+    height: 0.64rem;
+    margin-top: 2.6rem;
+    float: left;
+	max-width: 100%;
+	background-color: red;
+}
+/*列表*/
+#korea>div.content {
+	width: 100%;
+	height: auto;
+}
+
+#korea .content {
+	margin: 0 auto;
+	margin-top: 5.52rem;
+	line-height: 40px;
+	position: relative;
+	background-color: #ffffff;
+}
+#korea .content>ul {
+	width: 88%;
+	margin: auto;
+	padding-bottom: 5rem;
+}
+#korea .content>ul>li {
+	border-bottom: 1px solid #eeeff3;
+}
+#korea .content>ul>li>a {
+	width: 100%;
+	height: 3.68rem;
+	line-height: 3.68rem;
+	display: block;
+	position: relative;
+}
+#korea .koreafooter {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 5rem;
+	border-top: 2px solid #eeeff3;
+	background-color: #ffffff;
+	overflow: hidden;
+}
+#korea>div.maskResult{
+	position: fixed;
+	top:0;
+	width: 100%;
+	height: 100%;
+	z-index:9999;
+	background-color: rgba(0,0,0,0.5);
+
+}
+#korea>div.maskResult>div.ReultContent{
+	width: 90%;
+	height: 15rem;
+	border-radius: 0.5rem;
+	margin: 0 auto;
+	background-color: #ffffff;
+	margin-top: 16rem;
+}
+#korea>div.maskResult>div.ReultContent>div.title{
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 3rem;
+	height: 3rem;
+	border-bottom: 1px solid #dedede;
+}
+#korea>div.maskResult>div.ReultContent>p{
+    width: 92%;
+    margin: 0 auto;
+    padding: 1rem 0rem;
+    height: 9rem;
+}
+#korea>div.maskResult>div.ReultContent>div.button{
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+#korea>div.maskResult>div.ReultContent>div.button>a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	text-align: center;
+	color: #ffffff;
+	background-color: #008cd6;
+	  border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+#korea>div.shareMask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 199;
+	top:0;
+	display: none;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.shareMask .sharedialogBox1{
+	position: absolute;
+	left: 0;bottom: 0;
+	width: 100%;
+	background-color: #ffffff;
+	border-top: 2px solid #249dd8;
+	text-align:center;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_title{
+	padding: 0 1rem;
+	height: 4.4rem;
+	line-height: 4.4rem;
+	color: #333333;
+	font-size: 1.6rem;
+	text-align:left;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center{
+	width:auto;
+	overflow: hidden;
+	margin:0 auto;
+	padding-bottom: 1.5rem;
+	display:inline-block;
+
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center a{
+	float: left;
+	padding:0;
+	display: block;
+	width: 6rem;
+	text-align: center;
+	height: 5rem;
+	line-height: 9rem;
+	font-size: 1.1rem;
+	color: #666666;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center .sharedialogBox1_weix{
+	background: url("../images/qqweibo.png") no-repeat center top;
+	background-size: 3rem 3rem;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center .sharedialogBox1_flend{
+	background: url("../images/testsay_pengyouquan.png") no-repeat center top;
+	background-size: 3rem 3rem;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center .sharedialogBox1_xinl{
+	background: url("../images/testsay_xinglang.png") no-repeat center top;
+	background-size: 3rem 3rem;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center .sharedialogBox1_QQ{
+	background: url("../images/testsay_qqkongj.png") no-repeat center top;
+	background-size: 3rem 3rem;
+}
+.shareMask .sharedialogBox1 .sharenopartookBtn{
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.4rem;
+	color: #333333;
+	text-align: center;
+}
+
+.sharedialog2{
+	position: fixed;
+	top: 0;left: 0;right: 0;bottom: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 999;
+	display: none;
+}
+
+.sharedialog2 .sharedialogBox2_center{
+	position: absolute;
+	width: 25.6rem;
+	height: 15rem;
+	top: 1rem;right:1.5rem;
+	background: url("../images/testsay_dialogcenter.png") no-repeat 10% top;
+	background-size: 25.6rem 15rem;
+}
+.shareMask .sharedialogBox1 .sharedialogBox1_center a span{
+	background: none;
+	display: block;
+	width: 6rem!important;
+	text-align: center!important;
+	height: 5rem!important;
+	line-height: 9rem!important;
+	font-size: 1.1rem!important;
+	color: #666666!important;
+	margin: 0!important;
+	float: none!important;
+	padding: 0!important;
+}
+.sharebd_weixin_popup {
+	height:300px!important;
+}
+.sharemargin20 {
+	height: 1rem;
+	background-color: #ebebeb;
+}

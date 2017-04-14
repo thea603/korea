@@ -1,0 +1,434 @@
+.pcCircle{
+    width: 1050px;
+    height: 484px;
+    border:1px solid #88b7d8;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+.pcCircle .title{
+    width: 100%;
+    height: 50px;
+    background-color: #8ab8d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.pcCircle .title>div>span:nth-child(1){
+    margin-right: 11px;
+    /*display: block;*/
+}
+.content{
+    width: 1050px;
+    height: 636px;
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    position: relative;
+}
+.content>div.left{
+    width: 568px;
+    height: 100%;
+    border:1px solid #8ab8d9;
+    border-radius:10px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+}
+.content>div.left>div.title,.content>div.right>div.title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #8ab8d9;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.content>div.left>div.contentMain{
+    height: 591px;
+    width: 100%;
+    position: relative;
+}
+.content>div.left>div.contentMain>img{
+    display: block;
+    width: 69%;
+    margin: auto;
+}
+.content>div.left>div.contentMain>span{
+    position: absolute;
+    width: 125px;
+    height: 50px;
+    top: 35%;
+    font-size: 40px;
+    left: 39%;
+    color: #ef7d00;
+    display: block;
+    text-align: center;
+}
+.content>div.right{
+    width: 418px;
+    height: 100%;
+    border:1px solid #8ab8d9;
+    border-radius:10px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+}
+
+
+
+.Criteria{
+    width: 1050px;
+    height: 282px;
+    border:1px solid #88b7d8;
+    margin: 0 auto;
+    border-radius:10px;
+    margin-top: 60px;
+}
+.Criteria .title{
+    width: 100%;
+    height: 50px;
+    background-color: #8ab8d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.Criteria .header{
+    width: 1025px;
+    height: 27px;
+    margin: 0 auto;
+    margin-top: 15px;
+    line-height: 27px;
+}
+.Criteria .header>div{
+    width: 262px;
+    height: 23px;
+    margin-right: 3px;
+    background-color: #dcecf6;
+    float: left;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 5px;
+}
+.Criteria .header>div:nth-child(2){
+    width: 355px;
+    border-radius: 0px;
+}
+.Criteria .header>div:nth-child(2)>span{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    color: #ffffff;
+    float: left;
+}
+.Criteria .header>div:nth-child(2)>span:nth-child(1){
+    background-color: #1ba3dd;
+}
+.Criteria .header>div:nth-child(2)>span:nth-child(2){
+    background-color: red;
+}
+
+
+.Criteria .header>div:nth-child(3){
+    width: 263px;
+}
+.Criteria .header>div:nth-child(4){
+    width: 133px;
+}
+
+.Criteria .content{
+    width: 1025px;
+    height: 20px;
+    margin: 0 auto;
+    margin-top: 15px;
+    line-height: 20px;
+}
+.Criteria .content>div{
+    width: 262px;
+    height: 30px;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    border-bottom: 2px solid #dcecf6 ;
+    border-right: 2px dashed #dcecf6;
+}
+.Criteria .content>div:nth-child(2){
+    width: 355px;
+    border-radius: 0px;
+}
+.Criteria .content>div:nth-child(2)>span{
+    width: 49%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+.Criteria .content>div:nth-child(2)>span.left>span{
+    width: 69%;
+    height: 10px;
+    float: right;
+    max-width: 100%;
+    background-color: #1ba3dd;
+    display: block;
+    margin-top: 10px;
+}
+.Criteria .content>div:nth-child(2)>span.right>span{
+    width: 69%;
+    height: 10px;
+    float: left;
+    max-width: 100%;
+    background-color: #1ba3dd;
+    display: block;
+    margin-top: 10px;
+}
+
+
+
+
+
+.Criteria .content>div:nth-child(2)>span:nth-child(1){
+    border-right: 2px dashed #dcecf6;
+    float: left;
+}
+
+.Criteria .content>div:nth-child(3){
+    width: 266px;
+}
+.Criteria .content>div:nth-child(4){
+    width: 133px;
+    border-right: none;
+}
+.Criteria>div.last>div{
+    border-bottom: none;
+ }
+
+/*诊断代谢症候群*/
+.middle{
+    width: 1050px;
+    height: 340px;
+    border:1px solid #88b7d8;
+    margin:40px  auto 0 auto;
+    border-radius:10px;
+
+}
+.middle .title{
+    width: 100%;
+    height: 50px;
+    background-color: #8ab8d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.middle>div.left{
+    width: 504px;
+    height: 266px;
+    /*line-height: 266px;*/
+    float: left;
+    padding-left: 40px;
+}
+.middle>div.left>p{
+    width: 484px;
+    margin-top: 126px;
+}
+.middle>div.right{
+    float: left;
+    width: 482px;
+    height: 266px;
+}
+.middle>div.right>img{
+    display: block;
+    width: 100%;
+    line-height: 266px;
+    margin-top: 70px;
+}
+/*代谢症候群管理指南*/
+.guide{
+    width: 1050px;
+    height: 494px;
+    border:1px solid #88b7d8;
+    margin:40px  auto 30px auto;
+    border-radius:10px;
+
+}
+.guide .title{
+    width: 100%;
+    height: 50px;
+    background-color: #8ab8d9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.guide .header{
+    width: 1028px;
+    height: 29px;
+    margin: 0 auto;
+    line-height: 29px;
+    margin-top: 10px;
+}
+.guide .header>div{
+    float: left;
+    margin-top: 10px;
+    background-color: #dcecf6;
+    line-height: 29px;
+    height: 29px;
+    text-align: center;
+    margin-right: 3px;
+}
+.guide .header>div:nth-child(1){
+    width: 176px;
+    border-top-left-radius: 10px;
+}
+.guide .header>div:nth-child(2){
+    width: 421px;
+}
+.guide .header>div:nth-child(3){
+    width: 421px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.guide .content{
+    width: 1028px;
+    height: 78px;
+    margin: 0 auto;
+    line-height: 29px;
+    border-bottom: 1px solid #dcecf6 ;
+    overflow: hidden;
+}
+.guide .content>div{
+    float: left;
+    line-height: 70px;
+    height: 70px;
+    text-align: center;
+    margin-right: 3px;
+}
+.guide .content>div:nth-child(1){
+    width: 176px;
+    border-top-left-radius: 10px;
+}
+.guide .content>div:nth-child(2){
+    width: 421px;
+}
+.guide .content>div:nth-child(3){
+    width: 421px;
+    border-top-right-radius: 10px;
+}
+.guide .content>div:nth-child(2)>div{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 12px;
+    clear: both;
+}
+.guide .content>div:nth-child(2)>div>span{
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin-top: 7px;
+}
+.guide .content>div:nth-child(2)>div>p{
+    width: 332px;
+    float: left;
+    line-height: 19px;
+    text-align: left;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.guide .content>div:nth-child(3)>div>span{
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: black;
+    display: block;
+    float: left;
+    margin-top: 7px;
+}
+.guide .content>div:nth-child(3)>div>p{
+    width: 332px;
+    float: left;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: left;
+    padding-left: 3px;
+}
+.guide .content>div:nth-child(3)>div{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    font-size: 12px;
+    clear: both;
+}
+
+.fengmian{
+    width: 100%;
+    display: block;
+}
+.firstSecond{
+    width: 100%;
+    position: relative;
+}
+
+.firstSecond>img{
+    display: block;
+    width: 100%;
+}
+.firstSecond>div.firstcontent{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    color: #1f61ab;
+    font-size: 26px;
+    line-height: 43px;
+}
+.firstcontent>p>span.change{
+    word-spacing: 42px;
+}
+.firstcontent>p>span:nth-child(2){
+    padding-left: 52px;
+}
+.firstcontent>p>span:nth-child(3) {
+    padding-left: 10px;
+}
+.firstcontent>p.other>span:nth-child(2){
+    padding-left: 10px;
+}
+
+.bottomLogo{
+    display: block;
+    width: 280px;
+    height: 280px;
+    position: absolute;
+    left: 372px;
+    top: 477px;
+}
+.fistLogo {
+    display: block;
+    position: absolute;
+    width: 310px;
+    height: 197px;
+    top:22px;
+    left: 74px;
+}

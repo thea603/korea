@@ -1,0 +1,174 @@
+#korea .mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+}
+#korea .mask .selectReport {
+    position: absolute;
+    bottom: 5.23rem;
+    width: 90%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /* margin: 0 auto; */
+    left: 5%;
+    overflow: hidden;
+    display: block;
+}
+#korea .mask .selectReport .title {
+    text-align: center;
+    width: 100%;
+    height: 3.68rem;
+    border-bottom: 1px solid #dddddd;
+    line-height: 3.68rem;
+    color: #008cd6;
+}
+#korea .mask .selectReport .dialogcontent {
+    width: 100%;
+    height: auto;
+}
+#korea .mask .selectReport .dialogcontent>div.pic {
+    width: 7rem;
+    height: 9.2rem;
+    margin: 0 auto;
+    vertical-align: middle;
+    overflow: hidden;
+}
+#korea .mask .selectReport .dialogcontent>div.pic>img {
+    display: block;
+    margin-top: 1.265rem;
+    width: 7rem;
+    height: 6.67rem;
+    vertical-align: middle;
+}
+#korea .mask .selectReport .dialogcontent>p {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 2.29rem;
+}
+#korea .mask .selectReport .footer {
+    width: 100%;
+    border-top: 1px solid #dedede;
+    bottom: 0;
+    position: relative;
+    overflow: hidden;
+}
+#korea .mask .selectReport .footer>button {
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+    height: 4.28rem;
+    float: left;
+    border-radius: 10px;
+}
+
+#korea .mask .selectReport .footer>button {
+    border: none;
+    background-color: #ffffff;
+    width: 50%;
+    height: 4.28rem;
+    float: left;
+    border-radius: 10px;
+    font-size:1.5rem;
+}
+#korea .mask .selectReportDetails {
+    position: absolute;
+    bottom: 6.22rem;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 5px;
+    /* margin: 0 auto; */
+    left: 5%;
+    display: none;
+}
+#korea .mask .selectReportDetails .selectReportDetailstop {
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#korea .mask .selectReportDetails .selectReportDetailstop .title {
+    text-align: center;
+    width: 100%;
+    height: 3.68rem;
+    border-bottom: 1px solid #dedede;
+    line-height: 3.68rem;
+    background-color: #e7e7e7;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 1.38rem;
+    color: #333333;
+}
+#korea .mask .selectReportDetails>.selectReportDetailstop>div.list {
+    width: 100%;
+    background-color: #ffffff;
+    padding: .5rem 0;
+}
+#korea .mask .selectReportDetails>.selectReportDetailstop>div.list>div.person {
+    width: 100%;
+    height: 1.84rem;
+    line-height: 1.84rem;
+    font-size: 1.2rem;
+}
+#korea .mask .selectReportDetails>.selectReportDetailstop>div.list>div.person>span.name {
+    float: left;
+    margin-left: 10px;
+    color: #000000;
+}
+#korea .mask .selectReportDetails>.selectReportDetailstop>div.list>div.person>span.time {
+    float: right;
+    margin-right: 10px;
+    color: #999999;
+}
+#korea .mask .selectReportDetails>.selectReportDetailstop>div.list>div.hpname {
+    /* width: 90%; */
+    padding-left: 10px;
+    height: 1.84rem;
+    line-height: 1.84rem;
+    font-size: 1.2rem;
+    color: #999999;
+}
+#korea .mask .selectReportDetailsCancel {
+    width: 100%;
+    height: 3.86rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /* margin: 0 auto; */
+    outline: none;
+    font-size: 1.38rem;
+    border: none;
+    margin-top: 1rem;
+}
+#korea .mask .selectReportDetailsCancel>a {
+    color: black;
+}
+#korea .mask .selectReportDetailsCancel {
+    width: 100%;
+    height: 3.86rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    /* margin: 0 auto; */
+    outline: none;
+    font-size: 1.38rem;
+    border: none;
+    margin-top: 1rem;
+}
+#korea .mask .selectReportDetailsCancel>a {
+    color: black;
+}
+#korea .mask .selectReport .footer>button.sumbit>a {
+        font-size: 1.5rem;
+    color: #008cd6;
+    font-family: 'Î¢ÈíÑÅºÚ';
+}
+#korea .mask .selectReport .footer:after {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #dddddd;
+}

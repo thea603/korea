@@ -1,0 +1,123 @@
+li{
+	list-style: none
+}
+a{
+	text-decoration: none;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,p {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ outline: 0;
+ vertical-align: baseline;
+ background: transparent;
+ font-family: '微软雅黑'
+}
+a{
+	color: black;
+}
+body{
+	height: auto;
+	background-color: #eeeff3;
+}
+#korea .information{
+	padding: 0 1rem;
+	 margin:0 auto;
+	margin-top: 5.52rem;
+	 position: relative;
+	background-color: #ffffff;
+}
+#korea .information .informationTitle{
+	height: 3.54rem;
+	line-height: 3.54rem;
+	color: #000000;
+	font-size: 1.28rem;
+}
+#korea .information .informationBox{
+	overflow: hidden;
+}
+#korea .information .informationBox .informationInput{
+	float: left;
+	width:46%;
+	height: 3.68rem;
+	line-height: 3.68rem;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	text-indent: .5rem;
+}
+#korea .information .informationBox .valueBox{
+	float: right;
+	width: 50%;
+	overflow: hidden;
+    line-height:3.2rem;
+}
+
+#korea .information .informationBox .valueBox .valueInputAC{
+        float: left;
+    /* height: 3.68rem; */
+    /* line-height: 3.68rem; */
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: left;
+    background: url(../images/koreainformationMl2.png) no-repeat 0% 55%;
+    background-size: 0.97rem 0.97rem;
+    padding-left: 10%;
+
+}
+#korea .information .informationBox .valueBox .valueInput{
+	 float: left;
+    /* height: 3.68rem; */
+    /* line-height: 3.68rem; */
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: left;
+    background: url(../images/koreainformationMl.png) no-repeat 0% 55%;
+    background-size: 0.97rem 0.97rem;
+    padding-left: 10%;
+}
+#korea .information .informationBox .tishi{
+	clear: both;
+	height: 3.03rem;
+	line-height: 3.03rem;
+	font-size: 1rem;
+	color: #cccccc;
+}
+#korea .information2{
+	margin-top: .92rem;
+}
+#korea .informationList{
+	overflow: hidden;
+}
+#korea .informationList li{
+	float: left;
+	margin-right: .42rem;
+	margin-bottom: 0.84rem;
+	padding: 0.42rem;
+	height: auto;
+	font-size: 1rem;
+	border: 1px solid #dddddd;
+	border-radius: 5px;
+}
+#korea .nav .navRight .indexNavBtn2 {
+    line-height: 3.3rem;
+    display: block;
+    float: right;
+    font-size: 1.6rem;
+    color: #FFF;
+    height: 3.3rem;
+    vertical-align: middle;
+}
+#korea .nav .navRight .informationTijiao {
+    width: 1.5rem;
+    vertical-align: middle;
+    position: relative;
+    top: -0.1rem;
+}

@@ -1,0 +1,58 @@
+body {
+			font-family: "微软雅黑";
+		}
+		.koreaCircle {
+			width: 142px;
+			height:142px;
+			position: absolute;
+			border-radius: 50%;
+			background: #0cc;
+		}
+			.koreaCircle>img{
+				width: 142px;
+				height: 142px;
+				position: absolute;
+				top:0;
+				left: 0;
+			}
+		.pie_left, .pie_right {
+			width:142px;
+			height:142px;
+			position: absolute;
+			top: 0;left: 0;
+		}
+		.circleLeft, .circleRight {
+			width:142px;
+			height:142px;
+			background:#f2f2f2;
+			border-radius: 50%;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.pie_right, .circleRight {
+			clip:rect(0,auto,auto,71px);
+		}
+		.pie_left, .circleLeft {
+			clip:rect(0,71px,auto,0);
+		}
+		.koreaMask {
+			width: 96px;
+			height: 96px;
+			border-radius: 50%;
+			left: 23px;
+			top: 24px;
+			background: #0cc;
+			position: absolute;
+			text-align: center;
+			color: #ffffff;
+		}
+		.koreaMask>span:nth-child(1){
+			/*margin-top: 10px;*/
+			line-height: 92px;
+			font-size: 15px;
+		}
+.koreaMask>span:nth-child(2){
+	margin-top: -18px;
+	display: block;
+}

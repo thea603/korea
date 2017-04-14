@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<link rel="stylesheet" href="css/index.css">-->
+    <link rel="stylesheet" href="css/koreaList.css">
+    <link rel="stylesheet" href="css/pcCiracle.css">
+    <link rel="stylesheet" type="text/css" href="css/css.css" />
+    <link rel="stylesheet" href="css/circle.css">
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+    <script type="text/javascript" src="js/excanvas.compiled.js" ></script>
+    <!-- 增加单独IE样式判断 -->
+    <!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" media="all" href="css/ie.css" />
+    <![endif]-->
+</head>
+<body>
+<div style="width: 1150px;overflow: hidden;margin-right: auto;margin-left: auto;">
+    <div class="top clearfix">
+        <div class="p001"></div>
+        <div class="p002 clearfix">
+            <div class="q001"></div>
+            <div class="q002">
+                <div class="r001">代谢症候群生理年龄</div>
+                <div class="r002 clearfix">
+                    <div class="s001">kkol Medical Examination Center</div>
+                    <div class="s002 clearfix">
+                        <div class="t001">
+                            <p><span>I &nbsp;&nbsp;D</span> &nbsp;12345</p>
+                            <p><span>姓名</span> &nbsp;张勇</p>
+                        </div>
+                        <div class="t002">
+                            <p><span>性别/年龄</span> &nbsp;男/41.1</p>
+                            <p><span>检测日期</span>&nbsp; &nbsp;2016-06-06</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="pcCircle dataList_details">
+        <div class="title">
+            <div>
+                <span>检查结果</span>
+                <span>Measurment Results</span>
+            </div>
+        </div>
+        <div id='korea'>
+            <div class='resultContent'>
+                <div class="dataList">
+                    <div class="dataList_details">
+                        <div  class="content" style="margin-top: -36px">
+                            <img id="tulip" src="images/circleB.png" alt="" />
+                            <!-- 替换了以前的canves文件 -->
+                            <canvas id="board" width="800" height="600">
+                            </canvas>
+                            <!-- 增加了class="num"div标签 -->
+                            <div class="num">
+                                0
+                            </div>
+                            <div class="pid">
+                                <p>身份证年龄</p>
+                                <p>27.6</p>
+                            </div>
+                            <div class="age">
+                                <p>代谢症候群生理年龄</p>
+                                <p>35.1</p>
+                            </div>
+                        </div>
+                        <div class="contents circle">
+                            <div class="fat">
+                               <div class="koreaCircle fuBu">
+                                    <div class="pie_left"><div class="circleLeft"></div></div>
+                                    <div class="pie_right"><div class="circleRight"></div></div>
+                                    <div class="koreaMask">
+                                        <span>腹部肥胖年龄</span>
+                                        <span class="num">-5.8</span>
+                                    </div>
+                                   <img src="images/circleC.png" alt="">
+                                </div>
+                            </div>
+                            <div class="fat">
+                                <div class="koreaCircle xY">
+                                    <div class="pie_left"><div class="circleLeft"></div></div>
+                                    <div class="pie_right"><div class="circleRight"></div></div>
+                                    <div class="koreaMask">
+                                        <span>血压年龄</span>
+                                        <span class="num">2.3</span>
+                                    </div>
+                                    <img src="images/circleC.png" alt="">
+                                </div>
+                            </div>
+                            <div class="fat">
+                                <div class="koreaCircle xT">
+                                    <div class="pie_left"><div class="circleLeft"></div></div>
+                                    <div class="pie_right"><div class="circleRight"></div></div>
+                                    <div class="koreaMask">
+                                        <span>血糖年龄</span>
+                                        <span class="num">-7.2</span>
+                                    </div>
+                                    <img src="images/circleC.png" alt="">
+                                </div>
+                            </div>
+                            <div class="fat">
+                                <div class="koreaCircle dM">
+                                    <div class="pie_left"><div class="circleLeft"></div></div>
+                                    <div class="pie_right"><div class="circleRight"></div></div>
+                                    <div class="koreaMask">
+                                        <span>动脉硬化年龄</span>
+                                        <span class="num">9.3</span>
+                                    </div>
+                                    <img src="images/circleC.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="left">
+            <div class="title">
+                <span>综合分析</span>
+                <span>Results Analysis</span>
+            </div>
+            <div class="contentMain">
+                <img src="images/back.jpg" alt="">
+                <span class="result">低</span>
+            </div>
+        </div>
+        <div class="right">
+            <div class="title">
+                <span>代谢症候群年龄的变化播</span>
+                <span>lnterval Changes</span>
+            </div>
+            <div class="contentMain">
+                <div class="dataList_details">
+                    <!-- 删除canves标签，添加id='zhexian'div标签 -->
+                    <div  class="data" id="zhexian" style="width:448px;height:350px;margin-top: -43px"></div>
+                    <!-- 修改了class='data'div标签内联样式，并删除它里面的canves标签。添加id='zhexian'div标签 -->
+                    <div class="data" style="margin-top: -46px">
+                        <div id="main" style="width:448px;height:350px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="foot">
+        <div><img src="images/foot.png"></div>
+    </div>
+</div>
+</body>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script type="text/javascript" src="js/index.js" ></script>
+<script src="js/gauge.js"></script>
+<script src="js/echarts.min.js"></script>
+ <!--[if IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/excanvas.js"></script>
+    <![endif]-->
+<!-- 新增下面的JS -->
+<script>
+
+    //代谢症候群生理年龄
+    var value = 5;
+    var num = document.querySelector('.num');
+    if(value > 0 && value < 15){
+        num.innerHTML= '+'+value;
+    }else if(value < 0 && value > -15){
+        num.innerHTML= value;
+
+    }
+    var opts = {
+        angle: 0, // The span of the gauge arc
+        lineWidth: 0, // The line thickness
+        radiusScale: 2, // Relative radius
+        pointer: {
+            length: 0.115, // // Relative to gauge radius
+            strokeWidth: 0.28, // The thickness
+            color: 'red',
+            stroke:153 // Fill color
+        },
+        limitMax: false,     // If false, the max value of the gauge will be updated if value surpass max
+        limitMin: false,     // If true, the min value of the gauge will be fixed unless you set it manually
+        colorStart: '#6FADCF',   // Colors
+        colorStop: '#8FC0DA',    // just experiment with them
+        strokeColor: '#E0E0E0',  // to see which ones work best for you
+        generateGradient: true,
+        highDpiSupport: true     // High resolution support
+    };
+
+    if(value >= -15 && value <= -10){
+        opts.pointer.color  = '#0092d7';
+    }else if (value >=-10 && value <= -5 ){
+        opts.pointer.color = '#00aeef';
+    }else if(value >= -5 && value <= 0){
+        opts.pointer.color = '#4ec9f5';
+    }else if(value >= 0 && value <= 5){
+        opts.pointer.color = '#f8995d';
+    } else if(value >=5 && value <= 10){
+        opts.pointer.color = '#f36f21';
+    }else if(value >= 10 && value <= 15){
+        opts.pointer.color = '#ef4136';
+    }
+
+
+
+    var target = document.getElementById('board'); // your canvas element
+    var gauge = new Gauge(target).setOptions(opts); // create sexy gauge!
+    gauge.maxValue = 15; // set max gauge value
+    gauge.setMinValue(-15);  // Prefer setter over gauge.minValue = 0
+    gauge.animationSpeed = 32; // set animation speed (32 is default value)
+    gauge.set(value); // set actual value
+
+
+
+
+
+
+    var myChart = echarts.init(document.getElementById('main'));
+    var zhexian = echarts.init(document.getElementById('zhexian'));
+
+    //柱状图
+    var option = {
+        legend: {
+            data:['2015','2016','2017'],
+            top:'10%',
+            right:'9%'
+        },
+        xAxis : [
+            {
+                type : 'category',
+                data : ['腹部肥胖年龄','血压年龄','血糖年龄','动脉硬化年龄'],
+            }
+        ],
+        yAxis : [
+            {
+                type : 'value',
+                min:-20,
+                max:15,
+                splitNumber:10,
+            }
+        ],
+        series : [
+            {
+                name:'2015',
+                type:'bar',
+                data:[2,4,7,1]
+            },
+            {
+                name:'2016',
+                type:'bar',
+                data:[2,3,-3,5]
+            },
+            {
+                name:'2017',
+                type:'bar',
+                data:[2.6,-5,6,9]
+            }
+        ],
+        color:['#fff6cc','#ffe87f','#ffcf00']
+    };
+
+
+
+    //折线图
+    var zhexianoption = {
+        xAxis:  {
+            type: 'category',
+            data: ['2015','2016','2017']
+        },
+        yAxis: {
+            type: 'value',
+            min:-5,
+            max:5,
+            splitNumber:10,
+            interval:1
+
+        },
+        series: [
+            {
+                type:'line',
+                data:[1, -2, 2],
+                itemStyle : {
+                    normal: {
+                        label : {show: true},
+                        borderWidth:1,
+                    }
+                },
+                color:['#666666']
+            }
+        ]
+    }
+    myChart.setOption(option);
+    zhexian.setOption(zhexianoption);
+</script>
+</html>

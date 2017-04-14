@@ -1,0 +1,256 @@
+#korea>div.TJBG_top {
+    position: fixed;
+    width: 100%;
+    top: 4.6rem;
+    left: 0;
+    z-index: 99;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+#korea>div.TJBG_top>div.list-title {
+    float: left;
+    width: 33.3%;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    font-size: 1.29rem;
+    color: #333333;
+    text-align: center;
+}
+#korea>div.TJBG_top .list-title a {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    font-size: 1.29rem;
+    color: #333333;
+    text-align: center;
+}
+#korea>div.TJBG_top .list-title a.center {
+    text-align: center;
+}
+
+#korea>div.TJBG_top .list-title a {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    font-size: 1.29rem;
+    color: #333333;
+    text-align: center;
+}
+#korea>div.TJBG_top>div.list-title.active {
+    border-bottom: 1px solid #008cd6;
+}
+#korea>div.TJBG_top .list-title a {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 3.68rem;
+    line-height: 3.68rem;
+    font-size: 1.29rem;
+    color: #333333;
+    text-align: center;
+}
+#korea>div.tab-content {
+    background-color: #ffffff;
+    margin-top: 8.28rem;
+}
+#korea>div.tab-content>div.tab-pane {
+    display: none;
+}
+#korea>div.tab-content>div.tab-pane {
+    display: none;
+}
+#korea>div.tab-content>div.tab-pane.active {
+    display: block;
+}
+#korea>div.tab-content>#analysis>div.TJBG .JCBG {
+    height: 3.03rem;
+    line-height: 3.03rem;
+    padding-left: 2rem;
+    background-color: #d3edfb;
+    font-size: 1rem;
+    color: #26addf;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList {
+    background-color: #ffffff;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li {
+    padding: 0 1rem;
+    width: 100%;
+    border-bottom: 1px solid #f2f2f2;
+    background: url(../images/TJBGList.png) no-repeat 1rem center;
+    background-size: .6rem 1rem;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv {
+    display: block;
+    padding-left: 2rem;
+    height: 3.68rem;
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.15rem;
+    color: #181818;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv .ListdivLeft {
+    float: left;
+    height: 3.68rem;
+    line-height: 3.68rem;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv .ListdivRight {
+    float: right;
+    height: 3.68rem;
+    line-height: 3.68rem;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv2 {
+    display: block;
+    padding-left: 2rem;
+    height: 3.68rem;
+    width: 100%;
+    overflow: hidden;
+    font-size: 1.15rem;
+    color: #181818;
+}
+
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv2 .ListdivLeft {
+    float: left;
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv2 .ListdivRight {
+    float: right;
+    height: 2.2rem;
+    line-height: 2.2rem;
+}
+#korea>div.tab-content>#analysis>ul.TJBGList li .Listdiv2 .ListdivLeft2 {
+    clear: both;
+    float: left;
+    margin-top: -.5rem;
+    height: 1.48rem;
+    font-size: .8rem;
+    color: #b3b3b3;
+}
+#korea>div.tab-content>#analysis>div.tips {
+    background-color: #efeeee;
+    width: 100%;
+    padding: 0.1rem 1rem;
+    font-size: 0.1rem;
+}
+#korea>div.footer {
+    border-top-style: none;
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+    padding: 0.5rem;
+}
+#korea>div.footer>span {
+    display: inline-block;
+    width: 12rem;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #1590d6;
+    border-radius: 0.5rem;
+    float: left;
+    margin: 0rem 1.2rem;
+}
+#korea>div.footer>span>a {
+    color: #ffffff;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+#korea>div.TJBG_top.me{
+    padding: 0.1rem;
+    background-color: #eeeff3;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 5rem;
+}
+#korea>div.TJBG_top.me>div.meContent{
+    width: 100%;
+    height: 7rem;
+    background-color: #ffffff;
+    border: 1px solid #dedede;
+    border-left-style: none;
+    border-right-style: none;
+    margin-top: 0.5rem;
+    padding: 0 0.5rem
+}
+    #korea > div.TJBG_top.me > div.meContent:nth-child(1) {
+        margin:0;
+    }
+#korea>div.TJBG_top.me>div.meContent>p{
+   display: block;
+    width: 100%;
+    height: 2rem;
+    overflow: hidden;
+    padding: 0.3rem 0.3rem;
+    margin-top: 1rem;
+}
+#korea>div.TJBG_top.me>div.meContent>p>span.name{
+    float: left;
+    /*margin-left: 0.3rem;*/
+    color: #019EEB;
+}
+#korea>div.TJBG_top.me>div.meContent>p>span.time{
+    float: right;
+    /*margin-right: 0.3rem;*/
+}
+
+#korea>div.checkMask{
+    position: fixed;
+    top:0;
+    width: 100%;
+    display: none;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 110;
+}
+#korea>div.checkMask>div.content {
+    width: 90%;
+    height: 25rem;
+    margin: 11rem auto;
+    background-color: #ffffff;
+}
+#korea>div.checkMask>div.content>div.title{
+    height: 4rem;
+    width: 100%;
+    line-height: 4rem;
+    background-color: #dedede;
+    text-align: center;
+    color: #008cd6;
+}
+#korea>div.checkMask>div.content>div.checkMain{
+    height: 21rem;
+    padding: 1rem;
+}
+#korea>div.checkMask>div.content>div.checkMain>input{
+    width: 100%;
+    height: 10rem;
+    border:1px solid #dedede;
+}
+#korea>div.checkMask>div.content>div.checkMain>span.button{
+    width: 12rem;
+    height: 3rem;
+    border: 1px solid #dedede;
+    display: inline-block;
+    line-height: 3rem;
+    text-align: center;
+    margin-top: 0.6rem;
+    border-radius: 0.5rem;
+}
+#korea>div.checkMask>div.content>div.checkMain>span.button>a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+#korea>div.checkMask>div.content>div.checkMain>span.button.queding{
+    background-color: #008cd6;
+    float: right;
+}
+#korea>div.checkMask>div.content>div.checkMain>span.button.queding>a{
+    color: #ffffff;
+}
+
+
